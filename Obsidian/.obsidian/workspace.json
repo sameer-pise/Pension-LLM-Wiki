@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "9b721ddbd5c70413",
+    "type": "split",
+    "children": [
+      {
+        "id": "e0ec1541b7312f56",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b1bc262571cc0a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vault/wiki/member-benefits/retirement/retirement.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "retirement"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6310c6094b6aaef1",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f75efe31ec03d02",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "017daeda271920d6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5d4e95589f3f8671",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0b734a6851b40492",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 261.5
+  },
+  "right": {
+    "id": "5a0748054f268e90",
+    "type": "split",
+    "children": [
+      {
+        "id": "0675d5fdfbb6c51f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c78d7b9b27d293de",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "d333b21d007b4fc6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "4a9eb9da8381ece1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "42acf5662a1929be",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "d61e3127c388fcf3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "2b1bc262571cc0a6",
+  "lastOpenFiles": [
+    "Vault/wiki/member-benefits/survivor-benefits/survivor-benefits.md",
+    "Vault/wiki/member-benefits/service-credit/service-credit.md",
+    "Vault/wiki/member-benefits/retirement/retirement-process.md",
+    "Vault/wiki/member-benefits/retirement/retirement-eligibility.md",
+    "Vault/wiki/member-benefits/retirement/retirement.md",
+    "Vault/wiki/member-benefits/retirement/early-retirement.md",
+    "Vault/wiki/member-benefits/retirement/benefit-calculation.md",
+    "Vault/wiki/member-benefits/reemployment/reemployment.md",
+    "Vault/wiki/member-benefits/disability-benefits/disability-benefits.md",
+    "Vault/raw/member-benefits/retirement/retirement-eligibility.md",
+    "Vault/raw/member-benefits/retirement/retirement.md",
+    "Vault/raw/member-benefits/survivor-benefits/survivor-benefits.md",
+    "Vault/wiki/member-benefits/reemployment",
+    "Vault/wiki/member-benefits/survivor-benefits",
+    "Vault/wiki/member-benefits/disability-benefits",
+    "Vault/wiki/member-benefits/service-credit",
+    "Vault/wiki/member-benefits/retirement",
+    "Vault/wiki/member-benefits",
+    "Vault/raw/member-benefits/retirement/benefit-calculation.md",
+    "Vault/raw/member-benefits/retirement/benefit calculation.md",
+    "Vault/raw/member-benefits/retirement/early-retirement.md",
+    "Vault/raw/member-benefits/retirement/early retirement.md",
+    "Vault/raw/member-benefits/retirement/retirement eligibility.md",
+    "Vault/raw/member-benefits/retirement/retirement process.md",
+    "Vault/raw/member-benefits/retirement/retirement-process.md",
+    "Vault/raw/member-benefits/disability-benefits/disability-benefits.md",
+    "Vault/raw/member-benefits/retirement",
+    "Vault/raw/Survivor Benefits.md",
+    "Vault/raw/Life Events.md",
+    "Vault/raw/Refunds.md",
+    "Vault/raw/Retirement Basics.md",
+    "Vault/raw/member-benefits",
+    "Vault",
+    "Clippings",
+    "CLAUDE.md",
+    "create a link.md"
+  ]
+}

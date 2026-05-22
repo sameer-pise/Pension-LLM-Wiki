@@ -1,0 +1,95 @@
+{
+  "vault_path": "B:\\desktop\\Projects\\Sagitec\\ohsers-LLM-Wiki\\Obsidian\\Vault",
+  "items": [
+    {
+      "title": "Retirement",
+      "url": "https://www.ohsers.org/members/working-members/retirement-basics/",
+      "main_category": "Member Benefits",
+      "sub_category": "Retirement",
+      "topic": "Overview",
+      "content_type": "guide",
+      "output_path": "raw/member-benefits/retirement/retirement.md",
+      "tags": ["member-benefits", "retirement", "working-members"]
+    },
+    {
+      "title": "Retirement Eligibility",
+      "url": "https://www.ohsers.org/members/working-members/retirement-basics/",
+      "main_category": "Member Benefits",
+      "sub_category": "Retirement",
+      "topic": "Eligibility",
+      "content_type": "guide",
+      "output_path": "raw/member-benefits/retirement/retirement-eligibility.md",
+      "tags": ["member-benefits", "retirement", "eligibility"]
+    },
+    {
+      "title": "Early Retirement",
+      "url": "https://www.ohsers.org/members/working-members/retirement-basics/",
+      "main_category": "Member Benefits",
+      "sub_category": "Retirement",
+      "topic": "Early Retirement",
+      "content_type": "rule",
+      "output_path": "raw/member-benefits/retirement/early-retirement.md",
+      "tags": ["member-benefits", "retirement", "early-retirement"]
+    },
+    {
+      "title": "Retirement Process",
+      "url": "https://www.ohsers.org/members/working-members/retirement-basics/",
+      "main_category": "Member Benefits",
+      "sub_category": "Retirement",
+      "topic": "Process",
+      "content_type": "process",
+      "output_path": "raw/member-benefits/retirement/retirement-process.md",
+      "tags": ["member-benefits", "retirement", "process"]
+    },
+    {
+      "title": "Benefit Calculation",
+      "url": "https://www.ohsers.org/members/working-members/retirement-basics/",
+      "main_category": "Member Benefits",
+      "sub_category": "Retirement",
+      "topic": "Benefit Calculation",
+      "content_type": "calculation",
+      "output_path": "raw/member-benefits/retirement/benefit-calculation.md",
+      "tags": ["member-benefits", "retirement", "calculation"]
+    },
+    {
+      "title": "Service Credit",
+      "url": "https://www.ohsers.org/members/working-members/service-credit/",
+      "main_category": "Member Benefits",
+      "sub_category": "Service Credit",
+      "topic": "Overview",
+      "content_type": "guide",
+      "output_path": "raw/member-benefits/service-credit/service-credit.md",
+      "tags": ["member-benefits", "service-credit"]
+    },
+    {
+      "title": "Disability Benefits",
+      "url": "https://www.ohsers.org/members/working-members/disability-benefits/",
+      "main_category": "Member Benefits",
+      "sub_category": "Disability Benefits",
+      "topic": "Overview",
+      "content_type": "guide",
+      "output_path": "raw/member-benefits/disability-benefits/disability-benefits.md",
+      "tags": ["member-benefits", "disability-benefits"]
+    },
+    {
+      "title": "Survivor Benefits",
+      "url": "https://www.ohsers.org/members/working-members/survivor-benefits/",
+      "main_category": "Member Benefits",
+      "sub_category": "Survivor Benefits",
+      "topic": "Overview",
+      "content_type": "guide",
+      "output_path": "raw/member-benefits/survivor-benefits/survivor-benefits.md",
+      "tags": ["member-benefits", "survivor-benefits"]
+    },
+    {
+      "title": "Reemployment",
+      "url": "https://www.ohsers.org/members/ready-to-retire/reemployment/",
+      "main_category": "Member Benefits",
+      "sub_category": "Reemployment",
+      "topic": "Overview",
+      "content_type": "guide",
+      "output_path": "raw/member-benefits/reemployment/reemployment.md",
+      "tags": ["member-benefits", "reemployment"]
+    }
+  ]
+}
