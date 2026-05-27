@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "mappings": [
+    {
+      "raw_path": "Obsidian/Vault/raw/member-benefits/retirement/benefit-calculation.md",
+      "wiki_output_path": "Obsidian/Vault/wiki/member-benefits/retirement/benefit-calculation.md",
+      "status": "active",
+      "last_updated": "2026-05-27"
+    },
+    {
+      "raw_path": "Obsidian/Vault/raw/member-benefits/retirement/early-retirement.md",
+      "wiki_output_path": "Obsidian/Vault/wiki/member-benefits/retirement/early-retirement.md",
+      "status": "active",
+      "last_updated": "2026-05-27"
+    }
+  ]
+}

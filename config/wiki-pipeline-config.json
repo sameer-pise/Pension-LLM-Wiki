@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "pipeline_stages": [
+    "crawl",
+    "clean",
+    "chunk",
+    "copy-to-wiki"
+  ],
+  "logging": {
+    "level": "INFO",
+    "format": "jsonl"
+  },
+  "external_services": {
+    "redis_url": "redis://localhost:6379/0"
+  },
+  "structure_config": "wiki-structure-config.json",
+  "error_handling": {
+    "retry": 3,
+    "on_fail": "skip"
+  },
+  "status_values": ["active", "draft", "archived"],
+  "backup_policy": {
+    "enabled": true,
+    "retention_days": 30
+  }
+}

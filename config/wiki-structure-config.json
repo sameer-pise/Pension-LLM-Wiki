@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "raw_root": "Obsidian/Vault/raw/",
+  "wiki_root": "Obsidian/Vault/wiki/",
+  "categories": [
+    {
+      "slug": "member-benefits",
+      "title": "Member Benefits",
+      "subcategories": [
+        {
+          "slug": "retirement",
+          "title": "Retirement",
+          "topics": [
+            {
+              "slug": "benefit-calculation",
+              "title": "Benefit Calculation",
+              "keywords": ["calculation", "formula", "estimate"],
+              "wiki_output_path": "member-benefits/retirement/benefit-calculation.md",
+              "chunking": {
+                "min_words": 100,
+                "max_words": 400,
+                "strategy": "semantic",
+                "merge_short": true
+              },
+              "status": "active"
+            },
+            {
+              "slug": "early-retirement",
+              "title": "Early Retirement",
+              "keywords": ["early", "retirement", "penalty"],
+              "wiki_output_path": "member-benefits/retirement/early-retirement.md",
+              "chunking": {
+                "min_words": 100,
+                "max_words": 400,
+                "strategy": "semantic",
+                "merge_short": true
+              },
+              "status": "active"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "status_values": ["active", "draft", "archived"],
+  "backup_policy": {
+    "enabled": true,
+    "retention_days": 30
+  }
+}

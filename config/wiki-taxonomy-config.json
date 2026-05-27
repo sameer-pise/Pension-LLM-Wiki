@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "categories": [
+    {
+      "slug": "member-benefits",
+      "title": "Member Benefits",
+      "subcategories": [
+        {
+          "slug": "retirement",
+          "title": "Retirement",
+          "topics": [
+            {
+              "slug": "benefit-calculation",
+              "title": "Benefit Calculation",
+              "keywords": ["calculation", "formula", "estimate"]
+            },
+            {
+              "slug": "early-retirement",
+              "title": "Early Retirement",
+              "keywords": ["early", "retirement", "penalty"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

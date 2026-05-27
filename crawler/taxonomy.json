@@ -1,95 +1,269 @@
 {
   "vault_path": "B:\\desktop\\Projects\\Sagitec\\ohsers-LLM-Wiki\\Obsidian\\Vault",
+  "schema_version": "1.1",
+  "paths": {
+    "raw_root": "raw",
+    "wiki_root": "wiki"
+  },
+  "processing": {
+    "skip_reviewed": true,
+    "backup_enabled": true,
+    "status_values": [
+      "raw_crawled",
+      "clean_draft",
+      "auto_cleaned",
+      "reviewed"
+    ],
+    "chunking": {
+      "strategy": "semantic_heading_blocks",
+      "min_words": 80,
+      "max_words": 350,
+      "merge_small_chunks": true,
+      "preserve_list_integrity": true,
+      "preserve_source_order": true
+    }
+  },
+  "structure": {
+    "folder_pattern": "{layer}/{main_category_slug}/{sub_category_slug}/{topic_slug}.md",
+    "slug_case": "kebab-case"
+  },
+  "categories": [
+    {
+      "name": "Member Benefits",
+      "slug": "member-benefits",
+      "sub_categories": [
+        {
+          "name": "Retirement",
+          "slug": "retirement"
+        },
+        {
+          "name": "Service Credit",
+          "slug": "service-credit"
+        },
+        {
+          "name": "Disability Benefits",
+          "slug": "disability-benefits"
+        },
+        {
+          "name": "Survivor Benefits",
+          "slug": "survivor-benefits"
+        },
+        {
+          "name": "Reemployment",
+          "slug": "reemployment"
+        }
+      ]
+    }
+  ],
   "items": [
     {
       "title": "Retirement",
       "url": "https://www.ohsers.org/members/working-members/retirement-basics/",
       "main_category": "Member Benefits",
+      "main_category_slug": "member-benefits",
       "sub_category": "Retirement",
+      "sub_category_slug": "retirement",
       "topic": "Overview",
+      "topic_slug": "retirement",
       "content_type": "guide",
       "output_path": "raw/member-benefits/retirement/retirement.md",
-      "tags": ["member-benefits", "retirement", "working-members"]
+      "wiki_output_path": "wiki/member-benefits/retirement/retirement.md",
+      "section_keywords": [
+        "retirement basics",
+        "when can you retire",
+        "retirement"
+      ],
+      "tags": [
+        "member-benefits",
+        "retirement",
+        "working-members"
+      ]
     },
     {
       "title": "Retirement Eligibility",
       "url": "https://www.ohsers.org/members/working-members/retirement-basics/",
       "main_category": "Member Benefits",
+      "main_category_slug": "member-benefits",
       "sub_category": "Retirement",
+      "sub_category_slug": "retirement",
       "topic": "Eligibility",
+      "topic_slug": "retirement-eligibility",
       "content_type": "guide",
       "output_path": "raw/member-benefits/retirement/retirement-eligibility.md",
-      "tags": ["member-benefits", "retirement", "eligibility"]
+      "wiki_output_path": "wiki/member-benefits/retirement/retirement-eligibility.md",
+      "section_keywords": [
+        "service retirement eligibility",
+        "eligibility requirements",
+        "unreduced",
+        "age",
+        "service credit"
+      ],
+      "tags": [
+        "member-benefits",
+        "retirement",
+        "eligibility"
+      ]
     },
     {
       "title": "Early Retirement",
       "url": "https://www.ohsers.org/members/working-members/retirement-basics/",
       "main_category": "Member Benefits",
+      "main_category_slug": "member-benefits",
       "sub_category": "Retirement",
+      "sub_category_slug": "retirement",
       "topic": "Early Retirement",
+      "topic_slug": "early-retirement",
       "content_type": "rule",
       "output_path": "raw/member-benefits/retirement/early-retirement.md",
-      "tags": ["member-benefits", "retirement", "early-retirement"]
+      "wiki_output_path": "wiki/member-benefits/retirement/early-retirement.md",
+      "section_keywords": [
+        "early service retirement",
+        "early retirement",
+        "reduced benefit",
+        "reduction"
+      ],
+      "tags": [
+        "member-benefits",
+        "retirement",
+        "early-retirement"
+      ]
     },
     {
       "title": "Retirement Process",
       "url": "https://www.ohsers.org/members/working-members/retirement-basics/",
       "main_category": "Member Benefits",
+      "main_category_slug": "member-benefits",
       "sub_category": "Retirement",
+      "sub_category_slug": "retirement",
       "topic": "Process",
+      "topic_slug": "retirement-process",
       "content_type": "process",
       "output_path": "raw/member-benefits/retirement/retirement-process.md",
-      "tags": ["member-benefits", "retirement", "process"]
+      "wiki_output_path": "wiki/member-benefits/retirement/retirement-process.md",
+      "section_keywords": [
+        "apply",
+        "application",
+        "retirement estimate",
+        "steps toward retirement"
+      ],
+      "tags": [
+        "member-benefits",
+        "retirement",
+        "process"
+      ]
     },
     {
       "title": "Benefit Calculation",
       "url": "https://www.ohsers.org/members/working-members/retirement-basics/",
       "main_category": "Member Benefits",
+      "main_category_slug": "member-benefits",
       "sub_category": "Retirement",
+      "sub_category_slug": "retirement",
       "topic": "Benefit Calculation",
+      "topic_slug": "benefit-calculation",
       "content_type": "calculation",
       "output_path": "raw/member-benefits/retirement/benefit-calculation.md",
-      "tags": ["member-benefits", "retirement", "calculation"]
+      "wiki_output_path": "wiki/member-benefits/retirement/benefit-calculation.md",
+      "section_keywords": [
+        "calculating your own pension",
+        "formula",
+        "final average salary",
+        "service credit"
+      ],
+      "tags": [
+        "member-benefits",
+        "retirement",
+        "calculation"
+      ]
     },
     {
       "title": "Service Credit",
       "url": "https://www.ohsers.org/members/working-members/service-credit/",
       "main_category": "Member Benefits",
+      "main_category_slug": "member-benefits",
       "sub_category": "Service Credit",
+      "sub_category_slug": "service-credit",
       "topic": "Overview",
+      "topic_slug": "service-credit",
       "content_type": "guide",
       "output_path": "raw/member-benefits/service-credit/service-credit.md",
-      "tags": ["member-benefits", "service-credit"]
+      "wiki_output_path": "wiki/member-benefits/service-credit/service-credit.md",
+      "section_keywords": [
+        "service credit",
+        "earn service credit",
+        "purchase service credit"
+      ],
+      "tags": [
+        "member-benefits",
+        "service-credit"
+      ]
     },
     {
       "title": "Disability Benefits",
       "url": "https://www.ohsers.org/members/working-members/disability-benefits/",
       "main_category": "Member Benefits",
+      "main_category_slug": "member-benefits",
       "sub_category": "Disability Benefits",
+      "sub_category_slug": "disability-benefits",
       "topic": "Overview",
+      "topic_slug": "disability-benefits",
       "content_type": "guide",
       "output_path": "raw/member-benefits/disability-benefits/disability-benefits.md",
-      "tags": ["member-benefits", "disability-benefits"]
+      "wiki_output_path": "wiki/member-benefits/disability-benefits/disability-benefits.md",
+      "section_keywords": [
+        "disability benefits",
+        "eligibility",
+        "application process",
+        "termination of disability benefits"
+      ],
+      "tags": [
+        "member-benefits",
+        "disability-benefits"
+      ]
     },
     {
       "title": "Survivor Benefits",
       "url": "https://www.ohsers.org/members/working-members/survivor-benefits/",
       "main_category": "Member Benefits",
+      "main_category_slug": "member-benefits",
       "sub_category": "Survivor Benefits",
+      "sub_category_slug": "survivor-benefits",
       "topic": "Overview",
+      "topic_slug": "survivor-benefits",
       "content_type": "guide",
       "output_path": "raw/member-benefits/survivor-benefits/survivor-benefits.md",
-      "tags": ["member-benefits", "survivor-benefits"]
+      "wiki_output_path": "wiki/member-benefits/survivor-benefits/survivor-benefits.md",
+      "section_keywords": [
+        "survivor benefits",
+        "beneficiary",
+        "death benefit"
+      ],
+      "tags": [
+        "member-benefits",
+        "survivor-benefits"
+      ]
     },
     {
       "title": "Reemployment",
       "url": "https://www.ohsers.org/members/ready-to-retire/reemployment/",
       "main_category": "Member Benefits",
+      "main_category_slug": "member-benefits",
       "sub_category": "Reemployment",
+      "sub_category_slug": "reemployment",
       "topic": "Overview",
+      "topic_slug": "reemployment",
       "content_type": "guide",
       "output_path": "raw/member-benefits/reemployment/reemployment.md",
-      "tags": ["member-benefits", "reemployment"]
+      "wiki_output_path": "wiki/member-benefits/reemployment/reemployment.md",
+      "section_keywords": [
+        "reemployment",
+        "retired and returning to work",
+        "earnings limit"
+      ],
+      "tags": [
+        "member-benefits",
+        "reemployment"
+      ]
     }
   ]
 }
