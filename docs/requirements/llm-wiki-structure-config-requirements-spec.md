@@ -1,4 +1,11 @@
+
 # LLM Wiki Structure Config Requirements Specification
+
+## Related Documents
+- [LLM Wiki Crawler Requirements](llm-wiki-crawler-requirements-spec.md)
+- [LLM Wiki Raw-to-Wiki Structuring Requirements](llm-wiki-raw-to-wiki-structuring-requirements-spec.md)
+- [LLM Wiki Structure Config Design](../design/llm-wiki-structure-config-design.md)
+- [Wiki LLM Acceptance Criteria](../design/wiki-llm-acceptance-criteria.md)
 
 ## 1. Document Control
 - Document title: LLM Wiki Structure Config Requirements Specification
@@ -32,18 +39,18 @@ Out of scope:
 - All pipeline stages must accept the config file path as a parameter
 
 ## 5. Functional Requirements
-| ID | Requirement Statement | Acceptance Criteria |
-|---|---|---|
-| SC-001 | The config file shall define all main categories, sub-categories, and topics with deterministic slugs. | SCA-001 |
-| SC-002 | The config file shall specify raw and wiki root paths. | SCA-002 |
-| SC-003 | The config file shall define folder and file naming patterns for all output layers. | SCA-003 |
-| SC-004 | The config file shall include chunking and cleaning rules (min/max words, strategy, merge, etc). | SCA-004 |
-| SC-005 | The config file shall list all allowed status values and backup/skip policies. | SCA-005 |
-| SC-006 | Each item shall include per-topic keywords for content selection and chunking. | SCA-006 |
-| SC-007 | The config file shall be versioned with a schema_version field. | SCA-007 |
-| SC-008 | All pipeline stages shall load and use the config for structuring, chunking, and output path generation. | SCA-008 |
-| SC-009 | The config file shall be validated for schema and required fields at pipeline startup. | SCA-009 |
-| SC-010 | The config file shall be backward compatible with existing crawler and raw-to-wiki fields. | SCA-010 |
+| ID | Requirement Statement | Acceptance Criteria | Related Spec |
+|---|---|---|---|
+| SC-001 | The config file shall define all main categories, sub-categories, and topics with deterministic slugs. | SCA-001 | [Design Spec](../design/llm-wiki-structure-config-design.md) |
+| SC-002 | The config file shall specify raw and wiki root paths. | SCA-002 | [Design Spec](../design/llm-wiki-structure-config-design.md) |
+| SC-003 | The config file shall define folder and file naming patterns for all output layers. | SCA-003 | [Raw-to-Wiki Structuring](llm-wiki-raw-to-wiki-structuring-requirements-spec.md) |
+| SC-004 | The config file shall include chunking and cleaning rules (min/max words, strategy, merge, etc). | SCA-004 | [Raw-to-Wiki Structuring](llm-wiki-raw-to-wiki-structuring-requirements-spec.md) |
+| SC-005 | The config file shall list all allowed status values and backup/skip policies. | SCA-005 | [Design Spec](../design/llm-wiki-structure-config-design.md) |
+| SC-006 | Each item shall include per-topic keywords for content selection and chunking. | SCA-006 | [Raw-to-Wiki Structuring](llm-wiki-raw-to-wiki-structuring-requirements-spec.md) |
+| SC-007 | The config file shall be versioned with a schema_version field. | SCA-007 | [Design Spec](../design/llm-wiki-structure-config-design.md) |
+| SC-008 | All pipeline stages shall load and use the config for structuring, chunking, and output path generation. | SCA-008 | [Design Spec](../design/llm-wiki-structure-config-design.md) |
+| SC-009 | The config file shall be validated for schema and required fields at pipeline startup. | SCA-009 | [Acceptance Criteria](../design/wiki-llm-acceptance-criteria.md) |
+| SC-010 | The config file shall be backward compatible with existing crawler and raw-to-wiki fields. | SCA-010 | [Crawler Requirements](llm-wiki-crawler-requirements-spec.md) |
 
 ## 6. Non-Functional Requirements
 | ID | Requirement Statement | Acceptance Criteria |

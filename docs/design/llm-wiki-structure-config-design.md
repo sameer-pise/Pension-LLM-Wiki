@@ -1,4 +1,11 @@
+
 # LLM Wiki Structure Config Design Specification
+
+## Related Documents
+- [LLM Wiki Structure Config Requirements](../requirements/llm-wiki-structure-config-requirements-spec.md)
+- [LLM Wiki Raw-to-Wiki Structuring Requirements](../requirements/llm-wiki-raw-to-wiki-structuring-requirements-spec.md)
+- [LLM Wiki Crawler Requirements](../requirements/llm-wiki-crawler-requirements-spec.md)
+- [Wiki LLM Acceptance Criteria](wiki-llm-acceptance-criteria.md)
 
 ## 1. Overview
 This document describes the design for a unified configuration file (wiki-structure-config.json) that drives all structuring, chunking, and output mapping for the LLM Wiki pipeline. The config enables deterministic, auditable, and maintainable processing from raw input to final wiki output.

@@ -1,4 +1,10 @@
+
 # Redis Queue Design Spec
+
+## Related Documents
+- [LLM Wiki Crawler Design](llm-wiki-crawler-design.md)
+- [LLM Wiki Crawler Requirements](../requirements/llm-wiki-crawler-requirements-spec.md)
+- [Wiki LLM Implementation Spec](wiki-llm-implementation-spec.md)
 
 ## Purpose
 Use Redis-backed queues to separate crawler work from heavy processing tasks.
