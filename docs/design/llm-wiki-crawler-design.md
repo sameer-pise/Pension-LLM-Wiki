@@ -1,3 +1,20 @@
+# Recommended Frameworks and Libraries
+
+For the LLM Wiki crawler, the following frameworks and libraries are recommended:
+
+- **Crawling Framework:**
+      - [scrapy](https://scrapy.org/): A robust, production-grade Python crawling framework with built-in support for deduplication, pipelines, and error handling.
+      - [crawl4ai](https://github.com/crawl4ai/crawl4ai): An open-source, LLM-friendly web crawler designed for structured data extraction for AI agents.
+      - Choose scrapy for maximum flexibility and ecosystem support, or crawl4ai for LLM/AI agent integration.
+
+- **Content Extraction:**
+      - [trafilatura](https://trafilatura.readthedocs.io/): For extracting main text and metadata from web pages, with built-in content filtering.
+      - [html2text](https://github.com/Alir3z4/html2text): For converting HTML to Markdown-formatted text.
+
+- **Other Tools:**
+      - Use mechanicalsoup or browser-use only for sites requiring browser automation or form interaction.
+
+These tools ensure the crawler is scalable, LLM-friendly, and produces clean, structured Markdown content for downstream processing.
 
 # LLM Wiki Crawler Design Document
 

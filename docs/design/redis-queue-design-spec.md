@@ -1,3 +1,19 @@
+# Recommended Task Queue Libraries
+
+For managing distributed and background task queues in the LLM Wiki pipeline, the following Python libraries are recommended:
+
+- **Celery** ([celeryproject.org](https://docs.celeryq.dev/)): The most widely used asynchronous task queue/job queue based on distributed message passing. Supports multiple brokers (including Redis), robust scheduling, retries, and monitoring. Best for large-scale, production workloads.
+- **Dramatiq** ([dramatiq.io](https://dramatiq.io/)): Fast and reliable background task processing library for Python 3. Simple API, supports Redis and RabbitMQ, and is easy to integrate.
+- **RQ (Redis Queue)** ([python-rq.org](https://python-rq.org/)): Simple job queues for Python using Redis. Lightweight and easy to set up for smaller projects or prototyping.
+- **Huey** ([huey.readthedocs.io](https://huey.readthedocs.io/)): Small multi-threaded task queue with Redis support. Good for lightweight or embedded use cases.
+- **Taskiq** ([taskiq-python.github.io](https://taskiq-python.github.io/)): Distributed task queue with native asyncio support and pluggable brokers. Modern and async-native.
+
+**Recommendation:**
+- Use **Celery** for robust, production-grade distributed task management.
+- Use **Dramatiq** or **Taskiq** for modern, async-native Python projects.
+- Use **RQ** or **Huey** for simple, lightweight, or prototyping needs.
+
+All of these libraries support Redis as a broker and can be integrated with the queue separation model described above.
 
 # Redis Queue Design Spec
 
